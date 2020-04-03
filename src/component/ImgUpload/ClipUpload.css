@@ -1,0 +1,83 @@
+.clipupload-cnt{
+  width: 102px;
+  height: 102px;
+  margin-bottom: 23px;
+}
+.clipupload-cnt textarea{
+  height: 100%;
+  width: 100%;
+  display: block;
+  resize: vertical;
+  padding: 5px 7px;
+  line-height: 1.5;
+  color: #1f2d3d;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #bfcbd9;
+  border-radius: 4px;
+}
+textarea:focus {
+  outline: 0;
+  border-color: #20a0ff;
+}
+.clipupload-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  position: relative;
+  border: 1px solid #eeeeee;
+  position: relative;
+
+}
+.clipupload-img img{
+  width: 100%;
+  height: 100%;
+}
+.clipupload-img .clipupload-mask{
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top:0;
+  color: white;
+  display: table;
+  border-radius: 4px;
+}
+.clipupload-icon{
+  height: 24px;
+  line-height: 1;
+  display: inline-block;
+  width: 96px;
+  font-size: 24px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -48px;
+  top:50%;
+  margin-top: -12px;
+}
+.clipupload-icon i{
+  margin: 0 4px;
+  cursor: pointer;
+}
+.clipupload-progress{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid #fafafa;
+  background-color: #fafafa;
+}
+.clipupload-progress-cn{
+  height: 40px;
+  position: absolute;
+  top:50%;
+  width: 100%;
+  margin-top: -20px;
+}
+.clipupload-progress-cn .clipupload-progresss-text{
+  text-align: center;
+  height: 16px;
+  line-height: 1;
+}

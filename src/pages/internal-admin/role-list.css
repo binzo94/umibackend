@@ -1,0 +1,23 @@
+.flexbox{
+    display:flex;
+    flex-flow:row;
+}
+.i-size{
+    width:200px;
+}
+.font-size{
+    line-height:35px;
+    margin-left:10px;
+}
+.b-size{
+    margin-left:20px;
+}
+.t-style{
+    width:100%;
+    margin-top:20px;
+    margin-left:10px;
+}
+.page-style{
+    margin-top:20px;
+    text-align:center;
+}
